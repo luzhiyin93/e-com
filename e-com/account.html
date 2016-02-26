@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>account</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/e-com.css">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/e-com.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="nav" style="top:0px;left:0px;position: relative">
+                <div class="nav-left">
+                    <img src="img/logo.png">
+                    <ul>
+                        <li>
+                            <a href="women.html">Woman</a>
+                        </li>
+                        <li>
+                            <a href="men.html">Men</a>
+                        </li>
+                        <li>
+                            <a href="#">Kids</a>
+                        </li>
+                        <li>
+                            <a href="#">Comming Soon</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+                    <span class="menu"></span>
+                    <div class="navig">
+                        <ul>
+                            <li><a href="women.html">Woman</a></li>
+                            <li><a href="men.html">Men</a></li>
+                            <li><a href="#">Kids</a></li>
+                            <li><a href="#">Comming Soon</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <div class="nav-fix">
+                        <ul>
+                            <li>
+                                <img src="img/user.png">
+                                Hi,Michal<a href=""><span style="color: #f68236;">(Logout)</span></a>
+                            </li>
+                            <li>
+                                <img src="img/basket.png">
+                                <a><span id="basket">Basket(4)</span></a>
+                            </li>
+                            <li>
+                                <input type="text" class="hidden" id="search-hidden">
+                                <a class="glyphicon glyphicon-search nav-search"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden basket-list" id="basket-list">
+                        <div class="balist clearfix">
+                            <div class="balist-img">
+                                <img src="img/balist-img.png">
+                            </div>
+                            <div class="balist-intro">
+                                <h4>FLORAL PLIMSOLL</h4>
+                            </div>
+                            <div class="balist-price">
+                                <p>€99,95</p>
+                            </div>
+                            <div class="balist-del">
+                                <a><img src="img/bag-del.png"></a>
+                            </div>
+                        </div>
+                        <div class="balist clearfix">
+                            <div class="balist-img">
+                                <img src="img/balist-img.png">
+                            </div>
+                            <div class="balist-intro">
+                                <h4>
+                                    COATED 5 POCKET
+                                    <p>TROUSERS</p>
+                                </h4>
+                            </div>
+                            <div class="balist-price">
+                                <p>€99,95</p>
+                            </div>
+                            <div class="balist-del">
+                                <a><img src="img/bag-del.png"></a>
+                            </div>
+                        </div>
+                        <div class="balist1 clearfix">
+                            <div class="balist1-sub">
+                                <p>Subtotal:<small>€567,95</small></p>
+                            </div>
+                            <div class="balist1-button">
+                                <a href="">CHECKOUT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home">
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        /
+                    </li>
+                    <li>
+                        <a href="history.html">ACCOUNT</a>
+                    </li>
+                    <li>
+                        /
+                    </li>
+                    <li class="act">
+                        EDIT YOUR ACCOUNT
+                    </li>
+                </ul>
+            </div>
+            <div class="jacket-text">
+                <h3>EDIT YOUR ACCOUNT</h3>
+            </div>
+            <div class="ship-address">
+                <div class="ship-fname">
+                    <p>first name</p>
+                    <input type="text" placeholder="Michael">
+                </div>
+                <div class="ship-lname">
+                    <p>last name</p>
+                    <input type="text">
+                </div>
+                <div class="ship-fname">
+                    <small>company name</small>
+                    <span>(optional)</span>
+                    <input type="text" placeholder="Michael">
+                </div>
+                <div class="ship-lname">
+                    <small>nid</small>
+                    <span>(optional)</span>
+                    <input type="text">
+                </div>
+                <div class="ship-addline">
+                    <p>
+                        <small>address</small>
+                    </p>
+                    <input type="text">
+                </div>
+                <div class="ship-fname">
+                    <p>city</p>
+                    <input type="text">
+                </div>
+                <div class="ship-lname">
+                    <p>zip code</p>
+                    <input type="text">
+                </div>
+                <div class="ship-method">
+                    <p>country</p>
+                    <select class="form-control topic-sel">
+                        <option>Poland</option>
+                        <option>Poland</option>
+                        <option>Poland</option>
+                        <option>Poland</option>
+                    </select>
+                </div>
+                <div class="ship-fname">
+                    <p>phone number</p>
+                    <input type="text">
+                </div>
+                <div class="ship-lname">
+                    <p>e-mail</p>
+                    <input type="text">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Use this address for Billing
+                    </label>
+                </div>
+                <div class="option-order">
+                    <a href="">SAVE</a>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-list">
+                    <h3>COLLECTION</h3>
+                    <ul>
+                        <li>
+                            <a href="women.html">Woman (1725)</a>
+                        </li>
+                        <li>
+                            <a href="men.html">Men (635)</a>
+                        </li>
+                        <li>
+                            <a href="">Kids (2514)</a>
+                        </li>
+                        <li>
+                            <a href="">Comming Soon (76)</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h3>SITE</h3>
+                    <ul>
+                        <li>
+                            <a href="">Terms of Service</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Copyright Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Press Kit</a>
+                        </li>
+                        <li>
+                            <a href="">Support</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h3>SHOP</h3>
+                    <ul>
+                        <li>
+                            <a href="about.html">About us</a>
+                        </li>
+                        <li>
+                            <a href="shoppingcart.html">Shipping Metods</a>
+                        </li>
+                        <li>
+                            <a href="">Career</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-list1">
+                    <h3>SOCIAL</h3>
+                    <p>
+                        Shoper is made with love in Warsaw,
+                        <br>
+                        Copyright © 2014.Company name All rights reserved.El Passion
+                    </p>
+                    <ul>
+                        <li>
+                            <a href=""><img src="img/footer-t.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/footer-f.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/footer-i.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
